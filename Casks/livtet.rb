@@ -1,11 +1,8 @@
 cask "livtet" do
-  arch arm: "aarch64", intel: "x64"
-
   version "0.2.0"
-  sha256 arm:   "__ARM_SHA256__",
-         intel: "__INTEL_SHA256__"
+  sha256 "fd9c06e0754315ec2559ba04367dee134926ce5667a949fd85e036fae828b4b6"
 
-  url "https://github.com/olamaelcu/livtet-desktop/releases/download/v#{version}/livtet-desktop_#{version}_#{arch}.dmg",
+  url "https://github.com/olamaelcu/livtet-desktop/releases/download/v#{version}/livtet-desktop_#{version}_universal.dmg",
       verified: "github.com/olamaelcu/livtet-desktop/"
   name "Livtet"
   desc "Ebook library manager with sync and plugin support"
