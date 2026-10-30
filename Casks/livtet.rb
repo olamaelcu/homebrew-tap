@@ -9,4 +9,11 @@ cask "livtet" do
   homepage "https://github.com/olamaelcu/livtet-desktop"
 
   app "livtet-desktop.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/livtet-desktop.app"],
+                   print_stdout: true,
+                   print_stderr: true
+  end
 end
