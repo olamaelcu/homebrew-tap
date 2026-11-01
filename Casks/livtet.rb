@@ -1,6 +1,6 @@
 cask "livtet" do
   version "0.2.1"
-  sha256 "b1f8e3c36f789bde29d90d99490a99d957de71bb8b7ae893d2337acc75ca2cb0"
+  sha256 "b6185d1f0f02179655b5d04d3f3dfd91419c51f28460553cf7d4f47756c6d930"
 
   url "https://github.com/olamaelcu/livtet-desktop/releases/download/v#{version}/livtet-desktop_#{version}_universal.dmg",
       verified: "github.com/olamaelcu/livtet-desktop/"
